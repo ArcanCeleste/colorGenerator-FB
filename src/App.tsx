@@ -58,7 +58,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className='container'>
       <header className="headerSite">
         <div className="headerSiteLeftSide">
           <h3 className="headerSiteTitle"><a href="/">Color Generator</a></h3>
