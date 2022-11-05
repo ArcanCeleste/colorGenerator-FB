@@ -1,0 +1,1 @@
+export const listOfColors: string[] = ["Red", "Blue", "Green", "rgb(181, 192, 196)", "rgb(36, 27, 210)", "rgb(178, 50, 36)", "#4ad0a4", "#3a8c16", "#d1c5fd"]
