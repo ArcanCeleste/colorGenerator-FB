@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}
 /* --------------------- Header Area --------------------- */
 .headerSite {
   display: flex;
@@ -41,7 +47,7 @@
 /* --------------------- Main Content Area --------------------- */
 .mainContent {
   width: 100%;
-  height: calc(100vh - 60px);
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
