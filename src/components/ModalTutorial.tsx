@@ -1,11 +1,19 @@
+import { MouseEvent } from "react"
+
 type Props = {
     closeTutorial: ()=> void
 }
 
 export const ModalTutorial = (props:Props) => {
+    const closeModal = (event: MouseEvent) => {
+        const modal = event.target as HTMLDivElement
 
+        if (modal.dataset.modal === "true") {
+            props.closeTutorial()
+        }
+    }
     return (
-        <div className='tutorialModal'>
+        <div className='tutorialModal' data-modal="true" onClick={closeModal}>
             <div className='tutorialContent'>
                 <header>
                     <h2>Hello!!</h2>
