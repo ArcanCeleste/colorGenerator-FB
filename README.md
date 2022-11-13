@@ -1,4 +1,4 @@
-# color-generator
+Color Generator
 My first project made with React. <br/>
 Created By Guilherme de Paula da Silva. <br/>
 This project is a hex and rgb color generator. <br/><br/>
